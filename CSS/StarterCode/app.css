@@ -1,23 +1,13 @@
 body {
   /* background-color: rgb(123, 2, 194); */
-  background-color: #014f87;
-}
-
-p {
-  color: coral;
-}
-
-a {
-  color: cyan;
-  background-color: magenta;
-}
-
-h2 {
-  color: orangered;
-  background-color: grey;
+  background-color: yellow;
 }
 
 h1 {
-  color: teal;
-  background-color: yellow;
+  background-color: rgba(212, 0, 255, 0.279);
+}
+
+h2 {
+  background-color: rgba(0, 255, 255);
+  opacity: 0.5;
 }
