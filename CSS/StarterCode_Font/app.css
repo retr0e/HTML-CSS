@@ -2,10 +2,13 @@ h1 {
   font-family: 'Segoe UI', Futura, sans-serif;
   font-size: 60px;
   font-weight: normal;
+  direction: ltr;
+  text-align: end;
 }
 
 body {
   font-family: 'Lucida Sans', 'Lucida Grande';
+  text-align: justify;
 }
 
 /* p {
