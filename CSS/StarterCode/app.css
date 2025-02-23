@@ -4,6 +4,7 @@ p {
 
 a {
   color: cyan;
+  background-color: magenta;
 }
 
 h2 {
@@ -12,4 +13,5 @@ h2 {
 
 h1 {
   color: teal;
+  background-color: yellow;
 }
