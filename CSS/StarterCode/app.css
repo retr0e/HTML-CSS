@@ -1,3 +1,15 @@
 p {
-    color: coral;
+  color: coral;
+}
+
+a {
+  color: cyan;
+}
+
+h2 {
+  color: magenta;
+}
+
+h1 {
+  color: teal;
 }
