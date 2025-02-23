@@ -1,13 +1,16 @@
-body {
-  /* background-color: rgb(123, 2, 194); */
-  background-color: yellow;
+ul {
+  color: yellowgreen;
 }
 
-h1 {
-  background-color: rgba(212, 0, 255, 0.279);
+span {
+  color: orange;
 }
 
-h2 {
-  background-color: rgba(0, 255, 255);
-  opacity: 0.5;
+div {
+  color: red; /* Inteherited */
+  border: 1px solid blue; /* Not Inteherited */
+}
+
+p {
+  border: inherit; /* Turn inheritance on from parrent element */
 }
