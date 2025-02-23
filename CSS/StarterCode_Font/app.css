@@ -4,19 +4,21 @@ h1 {
   font-weight: normal;
   direction: ltr;
   text-align: end;
+  letter-spacing: 20px;
 }
 
 body {
   font-family: 'Lucida Sans', 'Lucida Grande';
-  text-align: justify;
+  /* text-align: justify; */
 }
 
-/* p {
-  font-size: 40px;
-  font-weight: bold;
+p {
+  word-spacing: 20px;
+  font-size: 20px;
+  line-height: 2.5;
 }
 
-a {
+/* a {
   font-size: 20px;
   font-style: italic;
 } */
