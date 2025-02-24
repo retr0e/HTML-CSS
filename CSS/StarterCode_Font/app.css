@@ -2,6 +2,7 @@
 
 h1 {
   font-weight: 100;
+  text-shadow: -2px 2px 2px magenta, -4px 4px 2px cyan;
 }
 
 body {
