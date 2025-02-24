@@ -9,13 +9,13 @@ h1 {
 }
 
 body {
-  font-family: Montserrat;
+  font-family: Montserrat, sans-serif;
   /* font-family: 'Lucida Sans', 'Lucida Grande'; */
   /* text-align: justify; */
 }
 
 h2 {
-  font-family: 'Indie Flower';
+  font-family: 'Indie Flower', cursive;
 }
 
 /* p {
