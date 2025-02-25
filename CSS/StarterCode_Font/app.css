@@ -10,3 +10,9 @@ body {
 #reviews {
   text-decoration: gold underline;
 }
+
+.tag {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+}
