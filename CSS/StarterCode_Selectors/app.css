@@ -43,10 +43,26 @@ a[href^='#'] {
   color: white;
 } */
 
-#cast li span {
+/* #cast li span {
   color: grey;
 }
 
 ol > li {
   border: 1px solid red;
+} */
+
+/* h2.score {
+  color: blueviolet;
+} */
+
+/* h2.big {
+  color: blueviolet;
+} */
+
+h2.score.big {
+  color: blueviolet;
+}
+
+h2#summary {
+  color: magenta;
 }
