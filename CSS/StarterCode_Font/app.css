@@ -16,3 +16,8 @@ body {
   background-color: black;
   color: white;
 }
+
+#cast {
+  list-style-type: '\1F44D';
+  list-style-position: outside;
+}
