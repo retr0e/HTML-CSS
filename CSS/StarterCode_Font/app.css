@@ -1,14 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
-
-h1 {
-  font-weight: 100;
-  text-shadow: -2px 2px 2px magenta, -4px 4px 2px cyan;
-}
-
 body {
   font-family: Montserrat, sans-serif;
 }
 
-h2 {
-  font-family: 'Indie Flower', cursive;
+h1 {
+  text-transform: uppercase;
+  /* text-decoration-line: line-through;
+  text-decoration-color: cyan;
+  text-decoration-style: wavy; 
+  text-decoration-thickness: 5px;
+  */
+  text-decoration: line-through cyan wavy 10px;
+}
+
+a {
+  text-decoration: none;
 }
