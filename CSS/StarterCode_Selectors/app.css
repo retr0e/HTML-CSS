@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
 } */
+body {
+  font-family: Merriweather, serif;
+}
 
 p {
   color: purple;
@@ -25,4 +28,17 @@ a[href*='wiki'] {
 
 a[href^='#'] {
   color: darkviolet;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.tag,
+.score,
+#featured {
+  background-color: orangered;
+  color: white;
 }
