@@ -1,17 +1,3 @@
 body {
   font-family: Montserrat, sans-serif;
 }
-
-h1 {
-  text-transform: uppercase;
-  /* text-decoration-line: line-through;
-  text-decoration-color: cyan;
-  text-decoration-style: wavy; 
-  text-decoration-thickness: 5px;
-  */
-  text-decoration: line-through cyan wavy 10px;
-}
-
-a {
-  text-decoration: none;
-}
