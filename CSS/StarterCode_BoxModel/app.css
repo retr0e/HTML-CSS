@@ -1,11 +1,12 @@
-h1 {
-  border: 1px solid salmon;
-  /* margin: 0px; */
-  /* margin-bottom: 89px; */
-  /* margin: 10px 20px 40px 80px; */
-  margin: 20px 50px;
+div {
+  background-color: purple;
+  margin: 30px;
+  height: 200px;
+  width: 200px;
+  border: 5px solid cyan;
+  padding: 10px;
 }
 
-a {
-  border: 1px solid olive;
+#alternate {
+  box-sizing: border-box;
 }
