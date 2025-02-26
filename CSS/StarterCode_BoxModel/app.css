@@ -5,6 +5,7 @@ div {
   width: 200px;
   border: 5px solid cyan;
   padding: 10px;
+  border: 50px solid green;
 }
 
 #alternate {
