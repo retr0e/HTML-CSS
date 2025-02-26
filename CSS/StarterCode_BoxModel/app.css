@@ -1,6 +1,11 @@
-#link {
-  border: 1px solid red;
-  font-size: 30px;
-  /* padding: 5px 10px 15px 20px; */
-  padding: 0px 50px;
+h1 {
+  border: 1px solid salmon;
+  /* margin: 0px; */
+  /* margin-bottom: 89px; */
+  /* margin: 10px 20px 40px 80px; */
+  margin: 20px 50px;
+}
+
+a {
+  border: 1px solid olive;
 }
