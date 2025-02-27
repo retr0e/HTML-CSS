@@ -1,0 +1,41 @@
+body {
+  background-color: #463d36;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div {
+  width: 600px;
+  background-color: white;
+  margin: 0 auto;
+  border-radius: 20px;
+  padding: 40px;
+}
+
+p {
+  font-size: 28px;
+  color: #463d36;
+  font-weight: 100;
+}
+
+h1 {
+  font-weight: 100;
+  font-size: 40px;
+  color: #463d36;
+  margin: 0;
+  margin-bottom: 28px;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: 900;
+  color: #a6192e;
+  margin: 0;
+}
+
+button {
+  font-size: 24px;
+  font-weight: 900;
+  background-color: #463d36;
+  color: white;
+  padding: 30px 40px;
+}
