@@ -59,10 +59,18 @@ ol > li {
   color: blueviolet;
 } */
 
-h2.score.big {
+/* h2.score.big {
   color: blueviolet;
 }
 
 h2#summary {
   color: magenta;
+} */
+
+h2 + p {
+  color: deeppink;
+}
+
+h1 ~ p {
+  text-decoration: underline;
 }
