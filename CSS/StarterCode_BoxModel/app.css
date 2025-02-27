@@ -1,10 +1,8 @@
 .box {
-  width: 80%;
-  min-width: 300px;
-  max-width: 600px;
-  height: 120px;
-  min-width: 100px;
-  max-width: 300px;
-  background-color: mediumvioletred;
-  margin: 0 auto;
+  height: 100px;
+  width: 100px;
+  background-color: forestgreen;
+  /* border-radius: 50%; */
+  /* border-top-left-radius: 20px; */
+  border-radius: 10px 20px 30px 40px;
 }
