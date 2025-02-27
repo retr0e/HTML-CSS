@@ -1,13 +1,26 @@
-div {
-  background-color: purple;
-  margin: 30px;
-  height: 200px;
-  width: 200px;
-  border: 5px solid cyan;
-  padding: 10px;
-  border: 50px solid green;
+p {
+  font-size: 30px;
 }
 
-#alternate {
-  box-sizing: border-box;
+#word {
+  border: 10px solid teal;
+  padding: 20px;
+  margin: 30px;
+  height: 50px;
+  width: 200px;
+  display: inline-block;
+}
+
+h1 {
+  border: 10px solid teal;
+  padding: 20px;
+  margin: 30px;
+  display: inline;
+}
+
+.box {
+  border: 1px solid red;
+  height: 200px;
+  width: 200px;
+  display: inline-block;
 }
