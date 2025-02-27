@@ -1,3 +1,10 @@
-.container {
-  margin-left: 200px;
+.box {
+  width: 80%;
+  min-width: 300px;
+  max-width: 600px;
+  height: 120px;
+  min-width: 100px;
+  max-width: 300px;
+  background-color: mediumvioletred;
+  margin: 0 auto;
 }
