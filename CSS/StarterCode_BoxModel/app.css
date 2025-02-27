@@ -1,8 +1,8 @@
 .box {
-  height: 100px;
-  width: 100px;
-  background-color: forestgreen;
-  /* border-radius: 50%; */
-  /* border-top-left-radius: 20px; */
-  border-radius: 10px 20px 30px 40px;
+  width: 300px;
+  height: 300px;
+  /* border: 1px solid grey; */
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px red, -2px -2px 10px blue;
 }
