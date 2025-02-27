@@ -1,4 +1,17 @@
 h1 {
-  display: none;
-  /* opacity: 0; */
+  margin: -20px;
+}
+
+#container {
+  border: 1px solid purple;
+  background-color: lightblue;
+  height: 400px;
+  width: 400px;
+}
+
+#container h3 {
+  text-align: center;
+  border: 1px solid black;
+  width: 150px;
+  margin: 0 auto;
 }
