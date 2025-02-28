@@ -1,0 +1,13 @@
+p {
+  color: olive;
+  font-family: fantasy;
+}
+
+.featured {
+  color: orangered;
+  font-size: 30px;
+}
+
+#special {
+  color: magenta;
+}
