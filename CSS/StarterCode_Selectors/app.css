@@ -67,10 +67,51 @@ h2#summary {
   color: magenta;
 } */
 
-h2 + p {
+/* h2 + p {
   color: deeppink;
 }
 
 h1 ~ p {
   text-decoration: underline;
+} */
+
+h2:hover {
+  color: orange;
+  font-size: 50px;
+}
+
+input:disabled {
+  background-color: red;
+}
+
+input:placeholder-shown {
+  background-color: blue;
+}
+
+a:visited {
+  color: olivedrab;
+}
+
+/* li:first-of-type {
+  border: 1px solid magenta;
+} */
+
+li:nth-of-type(2) {
+  border: 1px solid magenta;
+}
+
+button:active {
+  background-color: pink;
+}
+
+input:focus {
+  border: 10px solid green;
+}
+
+/* body :not(h1, h2, h3, h4, h5, h6) {
+  border: 1px solid yellowgreen;
+} */
+
+body :not(.score) {
+  border: 1px solid yellowgreen;
 }
