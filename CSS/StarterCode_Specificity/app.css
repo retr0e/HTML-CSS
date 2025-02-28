@@ -11,3 +11,15 @@ p {
 #special {
   color: magenta;
 }
+
+/* .hello + .main > h1 {
+} */
+/* 0 | 2 | 1 - specificity of above */
+
+#heading {
+  color: purple;
+}
+
+h1 {
+  color: red !important;
+}
