@@ -1,6 +1,16 @@
 .box {
-  background-color: purple;
-  height: 1px;
-  width: 1px;
-  margin: 200px;
+  background-color: olive;
+  width: 50%;
+  height: 50%;
+}
+
+.container {
+  border: 1px solid black;
+  height: 600px;
+  width: 600px;
+}
+
+p {
+  font-size: 40px;
+  line-height: 200%;
 }
