@@ -91,3 +91,9 @@ h6 {
   font-weight: bold;
   margin-left: 20px;
 }
+
+code {
+  color: #e95400;
+  font-weight: bold;
+  font-family: inherit;
+}
