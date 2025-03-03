@@ -1,7 +1,15 @@
 .box {
   border: 2px solid black;
   height: 700px;
-  width: 400px;
-  background: url('images/peacock.png') no-repeat center/200%,
-    url('images/sunset.jpg') left;
+  width: 700px;
+  background: url('images/people.jpg');
+  background-size: cover;
+  filter: blur(10px);
+}
+
+img {
+  width: 500px;
+  /* filter: grayscale() contrast(150%); */
+  border: 10px solid pink;
+  filter: hue-rotate(180deg);
 }
