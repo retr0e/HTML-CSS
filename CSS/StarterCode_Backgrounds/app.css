@@ -1,20 +1,7 @@
 .box {
   border: 2px solid black;
-  height: 400px;
+  height: 700px;
   width: 400px;
-  background-image: radial-gradient(circle at bottom, cyan, pink, yellow);
-}
-
-.box2 {
-  border: 2px solid black;
-  height: 400px;
-  width: 400px;
-  background-image: conic-gradient(cyan 30%, yellow 30% 60%, magenta, cyan);
-}
-
-.box3 {
-  border: 2px solid black;
-  height: 400px;
-  width: 400px;
-  background-image: repeating-linear-gradient(45deg, blue, red 35%);
+  background: url('images/peacock.png') no-repeat center/200%,
+    url('images/sunset.jpg') left;
 }
