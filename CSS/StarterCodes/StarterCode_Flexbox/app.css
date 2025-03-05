@@ -8,6 +8,7 @@ h1 {
   width: 1200px;
   margin: 40px auto;
   display: flex;
+  flex-direction: column-reverse;
 }
 
 .box {
