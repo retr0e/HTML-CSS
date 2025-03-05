@@ -1,14 +1,11 @@
-.box {
-  background-color: olive;
-  height: 200px;
-  width: 200px;
-  display: inline-block;
-  position: relative;
-}
-
-.box span {
+span {
+  font-size: 2rem;
+  display: block;
+  width: 100%;
+  padding: 30px;
+  background-color: orchid;
   color: white;
-  background-color: orangered;
-  position: absolute;
-  right: 0px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
 }
