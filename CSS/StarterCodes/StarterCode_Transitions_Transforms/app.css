@@ -7,11 +7,12 @@
 
 .first {
   background-color: orangered;
-  transform: scale(2, 4);
+  transform: rotate(-35deg);
+  transform-origin: bottom right;
 }
 
 h1 {
   display: inline-block;
   border: 1px solid black;
-  transform: scaleY(4);
+  transform: rotate(20deg) scale(3);
 }
