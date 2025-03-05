@@ -1,11 +1,16 @@
 .btn {
   border: 2px solid black;
+  color: orangered;
   padding: 10px 20px;
   display: inline-block;
   margin-top: 30px;
+  background-color: white;
+  /* transition: color 5s, background-color 5s; */
+  /* transition: all 5s; */
+  transition: color 3s, background-color 1s;
 }
 
 .btn:hover {
-  transition: background-color 5s;
   background-color: orangered;
+  color: white;
 }
