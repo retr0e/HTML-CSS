@@ -1,14 +1,11 @@
-.btn {
-  border: 2px solid black;
-  color: orangered;
-  padding: 10px 20px;
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: olive;
   display: inline-block;
-  margin-top: 30px;
-  background-color: white;
-  transition: background-color 2s ease-in, color 1s ease-out 2s;
 }
 
-.btn:hover {
-  background-color: olive;
-  color: magenta;
+.first {
+  background-color: orangered;
+  transform: translateX(400px);
 }
