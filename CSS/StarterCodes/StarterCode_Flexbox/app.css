@@ -9,13 +9,14 @@ h1 {
   height: 1000px;
   margin: 40px auto;
   display: flex;
-  flex-direction: row-reverse;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
+  /* flex-wrap: wrap; */
+  align-items: flex-end;
 }
 
 .box {
-  width: 300px;
+  width: 150px;
   height: 240px;
   font-size: 4rem;
   text-align: center;
