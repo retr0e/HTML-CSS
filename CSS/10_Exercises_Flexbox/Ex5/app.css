@@ -8,12 +8,13 @@ h1 {
   width: 1200px;
   height: 800px;
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .special {
-  align-self: flex-start;
+  align-self: flex-end;
 }
 
 span {
