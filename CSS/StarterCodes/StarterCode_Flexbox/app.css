@@ -10,7 +10,7 @@ h1 {
   margin: 40px auto;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   /* align-items: center; */
 }
 
@@ -22,8 +22,8 @@ h1 {
 
 p {
   margin: 0;
-  width: 1000px;
+  /* width: 1000px; */
   background-color: darkseagreen;
+  flex-basis: 500px;
   flex-grow: 1;
-  flex-shrink: 1;
 }
