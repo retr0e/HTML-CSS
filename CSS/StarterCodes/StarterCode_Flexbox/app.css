@@ -16,13 +16,14 @@ h1 {
 
 .sidebar {
   background-color: palevioletred;
-  flex-grow: 1;
-  /* max-width: 400px; */
+  width: 300px;
+  flex-shrink: 10;
 }
 
 p {
   margin: 0;
+  width: 1000px;
   background-color: darkseagreen;
-  width: 600px;
-  flex-grow: 10;
+  flex-grow: 1;
+  flex-shrink: 1;
 }
