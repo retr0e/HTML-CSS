@@ -16,14 +16,16 @@ h1 {
 
 .sidebar {
   background-color: palevioletred;
-  width: 300px;
-  flex-shrink: 10;
+  /* flex: 1 200px; */
+  flex: initial;
+  width: 200px;
 }
 
 p {
   margin: 0;
-  /* width: 1000px; */
   background-color: darkseagreen;
-  flex-basis: 500px;
-  flex-grow: 1;
+  /* flex: 2 500px; */
+  /* flex: initial; */
+  flex: 1 1 auto;
+  width: 500px;
 }
