@@ -12,11 +12,17 @@ body {
   background-color: red;
 }
 
-@media not (max-width: 600px) {
+@media (width <= 800px) {
+  body {
+    background-color: olive;
+  }
+}
+
+/* @media not (max-width: 600px) {
   body {
     background-color: purple;
   }
-}
+} */
 
 /* @media (max-width: 600px) or (min-width: 1500px) {
   body {
