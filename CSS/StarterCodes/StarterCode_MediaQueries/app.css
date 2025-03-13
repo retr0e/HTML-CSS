@@ -12,14 +12,17 @@ body {
   background-color: red;
 }
 
-@media (min-width: 800px) {
+@media only screen and (orientation: portrait) {
   body {
-    background-color: orange;
+    background-color: blue;
+  }
+  h1::before {
+    content: 'portrait';
   }
 }
 
-@media only screen and (min-width: 1200px) {
+/* @media only screen and (min-width: 1200px) {
   body {
     background-color: yellow;
   }
-}
+} */
