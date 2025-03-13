@@ -12,14 +12,20 @@ body {
   background-color: red;
 }
 
-@media only screen and (orientation: portrait) {
+@media (max-width: 600px) or (min-width: 1500px) {
+  body {
+    background-color: purple;
+  }
+}
+
+/* @media only screen and (orientation: portrait) {
   body {
     background-color: blue;
   }
   h1::before {
     content: 'portrait';
   }
-}
+} */
 
 /* @media only screen and (min-width: 1200px) {
   body {
