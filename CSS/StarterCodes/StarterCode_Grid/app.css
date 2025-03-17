@@ -5,10 +5,12 @@
   background-color: black;
   box-shadow: 0 6px 20px rgb(0 0 0 / 0.2);
   display: grid;
+  grid-template-columns: 1fr 1fr 150px;
+  grid-template-rows: 100px 1fr 100px;
   grid-template-areas:
-    'sidebar main main aside'
-    'sidebar main main aside'
-    'sidebar main main aside';
+    'navbar navbar navbar'
+    'main main sidebar'
+    '. footer .';
 }
 
 .box {
@@ -18,7 +20,7 @@
 }
 
 .first {
-  grid-area: sidebar;
+  grid-area: navbar;
 }
 
 .second {
@@ -26,5 +28,9 @@
 }
 
 .third {
-  grid-area: aside;
+  grid-area: sidebar;
+}
+
+.fourth {
+  grid-area: footer;
 }
