@@ -15,16 +15,16 @@
   text-align: center;
 }
 
-.first {
+/* .first {
   grid-column-start: 4;
   grid-column-end: 5;
   grid-row-start: 3;
   grid-row-end: 4;
-}
+} */
 
 .second {
-  grid-column-start: 2;
-  grid-column-end: 3;
+  /* grid-column-start: 1; */
+  grid-column-end: span 3;
   grid-row-start: 2;
-  grid-row-end: 4;
+  grid-row-end: span 2;
 }
