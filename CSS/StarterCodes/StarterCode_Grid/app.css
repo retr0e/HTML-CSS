@@ -5,9 +5,11 @@
   background-color: black;
   box-shadow: 0 6px 20px rgb(0 0 0 / 0.2);
   display: grid;
-  grid-template-columns: fit-content(300px) fit-content(500px) fit-content(
-      300px
-    );
+  grid-template: 1fr 1fr / repeat(4, 1fr);
+  /* column-gap: 20px;
+  row-gap: 30px; */
+  /* grid-gap: 20px; */
+  gap: 10px 40px;
 }
 
 .box {
