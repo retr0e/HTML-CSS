@@ -5,10 +5,9 @@
   background-color: black;
   box-shadow: 0 6px 20px rgb(0 0 0 / 0.2);
   display: grid;
-  /* grid-template-columns: repeat(4, 1fr); */
-  /* grid-template-columns: repeat(5, minmax(100px, 250px)); */
-  /* grid-template-rows: 1fr 1fr; */
-  grid-template: repeat(2, 1fr) / repeat(5, minmax(100px, 250px));
+  grid-template-columns: fit-content(300px) fit-content(500px) fit-content(
+      300px
+    );
 }
 
 .box {
