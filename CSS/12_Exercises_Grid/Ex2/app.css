@@ -4,3 +4,11 @@ Style the container div
   - 4 rows, each 100 pixels.  USE REPEAT!
   - 10px gaps between rows and columns
 */
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template: repeat(4, 100px) / repeat(6, 1fr);
+  grid-gap: 10px;
+}
