@@ -5,8 +5,10 @@
   background-color: black;
   box-shadow: 0 6px 20px rgb(0 0 0 / 0.2);
   display: grid;
-  grid-template-columns: [col1-start] 1fr [col1-end col2-start] 1fr [col2-end col3-start] 1fr [col3-end];
-  grid-template-rows: [row1-start] 1fr [row1-end row2-start] 1fr [row2-end];
+  grid-template-areas:
+    'sidebar main main aside'
+    'sidebar main main aside'
+    'sidebar main main aside';
 }
 
 .box {
@@ -16,6 +18,13 @@
 }
 
 .first {
-  grid-column: col2-start / col3-end;
-  grid-row: row2-start / row2-end;
+  grid-area: sidebar;
+}
+
+.second {
+  grid-area: main;
+}
+
+.third {
+  grid-area: aside;
 }
