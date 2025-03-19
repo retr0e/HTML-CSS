@@ -17,3 +17,9 @@ div {
   border: 3px solid var(--brand-color);
   box-shadow: var(--standard-shadow);
 }
+
+@media only screen and (max-width: 800px) {
+  :root {
+    --brand-color: rgb(119, 12, 149);
+  }
+}
