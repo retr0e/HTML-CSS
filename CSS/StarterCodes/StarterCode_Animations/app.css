@@ -7,11 +7,25 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  animation-name: spin;
+  animation-name: move;
   animation-duration: 3s;
 }
 
-@keyframes colorchange {
+@keyframes move {
+  0% {
+    transform: translateX(0%);
+    background-color: purple;
+  }
+  25% {
+    transform: translateX(500px);
+  }
+  100% {
+    transform: translateX(250px);
+    background-color: magenta;
+  }
+}
+
+/* @keyframes colorchange {
   from {
     background-color: pink;
   }
@@ -27,4 +41,19 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
+
+/* @keyframes rainbow {
+  0% {
+    background-color: red;
+  }
+  20% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: green;
+  }
+  100% {
+    background-color: violet;
+  }
+} */
