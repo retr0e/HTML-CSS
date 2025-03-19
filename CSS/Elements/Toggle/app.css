@@ -3,4 +3,46 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: sans-serif;
+}
+
+.toggle {
+  opacity: 0;
+}
+
+.toggle + label {
+  position: relative;
+  padding-left: 5rem;
+}
+
+.toggle + label::before {
+  content: '';
+  background-color: #c6d0cc;
+  position: absolute;
+  width: 4.5rem;
+  height: 2.5rem;
+  border-radius: 1.25rem;
+  top: 0px;
+  left: 0px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.toggle + label::after {
+  content: '';
+  background-color: white;
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  top: 0.25rem;
+  left: 0.25rem;
+  transition: transform 0.2s ease-in-out;
+}
+
+.toggle:checked + label::before {
+  background-color: #20b776;
+}
+
+.toggle:checked + label::after {
+  transform: translateX(2rem);
 }
