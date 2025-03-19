@@ -1,24 +1,31 @@
-blockquote {
-  font-size: 3rem;
-  font-style: italic;
-  width: 50%;
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: sans-serif;
+  background-color: black;
+}
+
+.box {
+  background-color: black;
+  color: white;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  /* border: 2px solid white; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
 }
 
-blockquote::before {
-  content: open-quote;
-  top: -50px;
-  left: -50px;
-}
-
-blockquote::after {
-  content: close-quote;
-  bottom: -100px;
-  right: -30px;
-}
-
-blockquote::before,
-blockquote::after {
-  font-size: 6rem;
+.box::before {
+  content: '';
+  width: 306px;
+  height: 306px;
+  background: linear-gradient(cyan, magenta);
   position: absolute;
+  top: -3px;
+  z-index: -1;
 }
