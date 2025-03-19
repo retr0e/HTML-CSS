@@ -1,3 +1,10 @@
+h1 {
+  animation-name: spin;
+  animation-duration: 1s;
+  display: inline-block;
+  animation-iteration-count: infinite;
+}
+
 .box {
   width: 300px;
   height: 300px;
