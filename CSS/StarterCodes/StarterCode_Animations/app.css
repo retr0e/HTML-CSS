@@ -1,8 +1,10 @@
 h1 {
   animation-name: spin;
-  animation-duration: 1s;
+  /* animation-duration: 1s; */
   display: inline-block;
-  animation-iteration-count: infinite;
+  /* animation-iteration-count: infinite; */
+  animation: spin 1s infinite reverse linear;
+  /* animation-play-state: paused; */
 }
 
 .box {
@@ -14,12 +16,13 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  animation-name: spin;
+  animation: 3s spin 2s alternate-reverse infinite ease-in-out;
+  /* animation-name: spin;
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-direction: alternate-reverse;
   animation-delay: 2s;
-  animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out; */
 }
 
 @keyframes move {
