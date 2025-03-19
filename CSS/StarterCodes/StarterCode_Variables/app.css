@@ -1,10 +1,15 @@
 :root {
   --brand-color: rgb(12, 166, 184);
   --standard-shadow: 0px 2px 40px rgba(0, 0, 0, 0.15);
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --spacing-xl: 64px;
 }
 
 button {
   background-color: var(--brand-color);
+  padding: var(--spacing-lg);
 }
 
 h1 {
@@ -21,5 +26,14 @@ div {
 @media only screen and (max-width: 800px) {
   :root {
     --brand-color: rgb(119, 12, 149);
+  }
+  button {
+    padding: var(--spacing-md);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  button {
+    padding: var(--spacing-sm);
   }
 }
