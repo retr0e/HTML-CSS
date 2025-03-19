@@ -52,6 +52,36 @@ body {
   border-radius: 10px;
 }
 
+.mobileNav {
+  width: 80px;
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  right: 0;
+  padding: 16px;
+}
+
+.mobileNav a {
+  color: black;
+  text-decoration: none;
+  margin: 16px 0;
+}
+
+.mobileNav a:hover {
+  text-decoration: underline;
+}
+
+.mobileNav img {
+  width: 24px;
+  height: 24px;
+}
+
 .project-grid {
   display: grid;
   grid-template-areas:
@@ -175,19 +205,23 @@ body {
     width: 100%;
     box-sizing: border-box;
   }
+
   .navbar .right {
     display: none;
   }
+
   .navbar .hamburger {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
+
   .footer {
     font-size: 14px;
     padding: 32px;
   }
+
   .project-grid {
     margin-top: 100px;
     max-width: 100%;
