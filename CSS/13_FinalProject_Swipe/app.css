@@ -238,6 +238,7 @@ p {
   border: none;
   color: var(--primary-accent);
   transition: all 0.15s ease;
+  padding-left: 0;
 }
 
 .secondary-button:hover {
@@ -617,4 +618,40 @@ main {
 
 .virtual-events-section .card-bottom .subtitle {
   margin: var(--spacing-lg) 0 0 0;
+}
+
+/* GETTING STARTED SECTION STYLES */
+
+.getting-started-section {
+  display: flex;
+  justify-content: center;
+  padding: var(--spacing-xl) 0;
+}
+
+.getting-started-section .primary-button {
+  background-color: var(--purple-1);
+  margin: var(--spacing-md) 0;
+}
+
+.getting-started-section .primary-button:hover {
+  background-color: var(--primary-accent);
+}
+
+.getting-started-section .col-left {
+  padding: 0 var(--spacing-xl) 0 0;
+}
+
+.getting-started-section .col-right {
+  flex-direction: row;
+}
+
+.getting-started-section .col-right .card {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 0 var(--spacing-sm) 0 0;
+  margin: 0 var(--spacing-md) 0 0;
+}
+
+.getting-started-section .col-right .card .secondary-button {
+  color: var(--purple-2);
 }
