@@ -523,3 +523,10 @@ main {
   position: absolute;
   top: 8%;
 }
+
+/* VIRTUAL EVENTS SECTION STYLES */
+
+.virtual-events-section {
+  display: flex;
+  justify-content: center;
+}
